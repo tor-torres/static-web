@@ -1,0 +1,169 @@
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #393053;
+}
+
+.nav-link {
+    color: rgb(142, 10, 230);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(142, 10, 230);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.computer {
+    color: rgb(132, 0, 255);
+}
+
+.studies {
+    color: rgb(230, 247, 2);
+}
+
+.span-logo {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+/* Header */
+#header{
+    background-color: #FDD36A;
+}
+
+.sub-title {
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #2d0b63;
+}
+
+.title-img{
+    max-width: 100%;
+}
+
+/* Home */
+
+.icon-home{
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(114, 110, 110)
+}
+
+.icon {
+    font-size: 40px;
+    margin: 30px 0;
+    color: blueviolet;
+}
+
+.content-home{
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.img{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* Features */
+
+#features{
+    background: rgb(103,8,237);
+    background: radial-gradient(circle, rgba(103,8,237,1) 0%, rgba(92,21,139,1) 100%);
+}
+
+.text{
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+
+
+/* About */
+.about-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-text{
+    color: #393053;
+}
+
+.about-text:hover{
+    color: #FDD36A;
+}
+
+.bg-about{
+    background-color: #393053;
+}
+
+
+/* Contact */
+
+#contact{
+    background-color: #FDD36A;
+}
+
+.icon-connect {
+    font-size: 30px;
+    color: rgb(142, 10, 230);
+}
+
+.connect-icon{
+    color: rgb(142, 10, 230);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.connect-icon:hover{
+    opacity: 0.5;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .title, .sub-title{
+        height: 100%;
+        width: 100%;
+    }
+}
