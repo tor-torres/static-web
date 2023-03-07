@@ -112,10 +112,6 @@ p{
     background: radial-gradient(circle, rgba(103,8,237,1) 0%, rgba(92,21,139,1) 100%);
 }
 
-.text{
-    color: aliceblue;
-    letter-spacing: 2px;
-}
 
 
 /* About */
@@ -158,6 +154,7 @@ p{
     opacity: 0.5;
     
 }
+
 
 
 
